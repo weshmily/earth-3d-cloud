@@ -29,5 +29,4 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
 
