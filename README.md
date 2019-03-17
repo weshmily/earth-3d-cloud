@@ -1,29 +1,33 @@
 # earth-3d-cloud
 
-## Project setup
+## 项目设置
 ```
 yarn install
 ```
+### 项目描述
+```
+地球三维点云展示平台
+```
 
-### Compiles and hot-reloads for development
+### 编译热重载代码(开发模式)
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### 编译压缩代码(生产模式)
 ```
 yarn run build
 ```
 
-### Run your tests
+### 运行检测
 ```
 yarn run test
 ```
 
-### Lints and fixes files
+### 检查语法和补丁文件
 ```
 yarn run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
