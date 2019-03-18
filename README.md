@@ -8,7 +8,7 @@
 
 ### 环境安装
 ```
-node.js,yarn
+node.js>=8.9,yarn,vue-cli=3.0,git
 ```
 
 ## 项目更新插件包
