@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/img/logo.png">
     <div>
       <el-row>
         <el-button>默认按钮</el-button>
@@ -25,8 +25,7 @@ export default {
   }
 };
 </script>
-
-<style>
+<style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -36,3 +35,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
