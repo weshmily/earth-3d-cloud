@@ -16,7 +16,14 @@ export default {
   },
   methods: {
     init() {
-      this.viewer = new Cesium.Viewer("cesiumContainer");
+      this.viewer = new Cesium.Viewer("cesiumContainer", {
+        animation: false,
+        timeline: false,
+        fullscreenButton: false,
+        geocoder: false,
+        baseLayerPicker: false
+      });
+      this.viewer.cesiumWidget.creditContainer.style.display = "none";
     }
   },
   mounted() {
