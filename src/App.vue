@@ -1,34 +1,13 @@
 <template>
   <div id="app">
-    <div id="cesiumContainer"></div>
+    <cesium></cesium>
   </div>
 </template>
-
 <script>
-var Cesium = require("cesium/Cesium");
-require("cesium/Widgets/widgets.css");
+import cesium from "@/views/cesium.vue";
 export default {
   name: "app",
-  data() {
-    return {
-      viewer: null
-    };
-  },
-  methods: {
-    init() {
-      this.viewer = new Cesium.Viewer("cesiumContainer", {
-        animation: false,
-        timeline: false,
-        fullscreenButton: false,
-        geocoder: false,
-        baseLayerPicker: false
-      });
-      this.viewer.cesiumWidget.creditContainer.style.display = "none";
-    }
-  },
-  mounted() {
-    this.init();
-  }
+  components: { cesium }
 };
 </script>
 <style lang="scss">
