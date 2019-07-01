@@ -39,10 +39,14 @@ module.exports = {
 	},
 	devServer: {
 		proxy: {
-			'/gdemv2data': { //地形理路径
+			'/56': { //地形理路径
 				target: 'http://localhost:5000', //'http://localhost:5000',
 				changeOrigin: true
 			},
+			'/pointcloud': { //地形理路径
+				target: 'http://localhost:5000', //'http://localhost:5000',
+				changeOrigin: true
+			}
 			
 		}
 	}
